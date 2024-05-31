@@ -706,7 +706,7 @@
 }
 .company-section .company-content {
   display: flex;
-  gap: 20px;
+  gap: 1px;
   border-radius: 32px;
   background: rgb(2, 137, 122);
   margin: 0 0 150px 0;
@@ -715,7 +715,7 @@
   padding: 50px;
 }
 .company-section .company-content .company-content-left .company-title {
-  width: 510px;
+  width: 490px;
   color: rgb(255, 255, 255);
   font-size: 32px;
   font-weight: 600;
@@ -740,23 +740,119 @@
   cursor: pointer;
 }
 .site-footer {
-  background-color: antiquewhite;
+  background-color: rgb(31, 46, 53);
+  padding: 0 0 24px 0;
 }
-.site-footer .footer-wrapper .footer-logo-social .footer-logo .footer-logo-text a {
+.site-footer .footer-wrapper {
+  display: flex;
+  gap: 81px;
+}
+.site-footer .footer-wrapper .footer-logo-social-list-wrapper {
+  display: flex;
+  gap: 161px;
+}
+.site-footer .footer-wrapper .footer-logo-social-list-wrapper .footer-logo-social {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.site-footer .footer-wrapper .footer-logo-social-list-wrapper .footer-logo-social .footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.site-footer .footer-wrapper .footer-logo-social-list-wrapper .footer-logo-social .footer-logo a {
   text-decoration: none;
 }
-.site-footer .footer-wrapper .footer-logo-social .footer-social-list .footer-social-item {
+.site-footer .footer-wrapper .footer-logo-social-list-wrapper .footer-logo-social .footer-logo a .footer-logo-text {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.site-footer .footer-wrapper .footer-logo-social-list-wrapper .footer-logo-social .footer-social-list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.site-footer .footer-wrapper .footer-logo-social-list-wrapper .footer-logo-social .footer-social-list .footer-social-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(237, 255, 252);
   list-style: none;
 }
-.site-footer .footer-wrapper .footer-logo-social .footer-social-list .footer-social-item a {
+.site-footer .footer-wrapper .footer-logo-social-list-wrapper .footer-logo-social .footer-social-list .footer-social-item a {
   text-decoration: none;
 }
-.site-footer .footer-wrapper .footer-list-wrapper .footer-list .footer-item-title {
+.site-footer .footer-wrapper .footer-logo-social-list-wrapper .footer-list-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 153px;
+}
+.site-footer .footer-wrapper .footer-logo-social-list-wrapper .footer-list-wrapper .footer-list .footer-item-title {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  list-style: none;
+  margin-bottom: 24px;
+}
+.site-footer .footer-wrapper .footer-logo-social-list-wrapper .footer-list-wrapper .footer-list .footer-item {
+  margin-bottom: 16px;
   list-style: none;
 }
-.site-footer .footer-wrapper .footer-list-wrapper .footer-list .footer-item {
-  list-style: none;
-}
-.site-footer .footer-wrapper .footer-list-wrapper .footer-list .footer-item a {
+.site-footer .footer-wrapper .footer-logo-social-list-wrapper .footer-list-wrapper .footer-list .footer-item a {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
   text-decoration: none;
+}
+.site-footer .footer-wrapper .footer-form-wrapper .form-title {
+  width: 260px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 34px;
+}
+.site-footer .footer-wrapper .footer-form-wrapper form {
+  width: 325px;
+}
+.site-footer .footer-wrapper .footer-form-wrapper form label .input-name {
+  width: 325px;
+  border: none;
+  box-sizing: border-box;
+  border: 1px solid rgb(188, 208, 229);
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 21px;
+}
+.site-footer .footer-wrapper .footer-form-wrapper form label .footer-signup-btn {
+  width: 131px;
+  padding: 7px 15px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  border-radius: 4px;
+  border: none;
+  background: rgb(2, 137, 122);
+  cursor: pointer;
+}
+.site-footer .footer-bottom-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
 }

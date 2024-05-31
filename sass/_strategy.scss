@@ -58,13 +58,15 @@
             display: flex;
             justify-content: center;
             gap: 10px;
+
             .strategy-circle {
                 width: 16px;
                 height: 16px;
                 border-radius: 50%;
                 background-color: white;
             }
-            .second{
+
+            .second {
                 background-color: rgb(2, 137, 122);
             }
         }
