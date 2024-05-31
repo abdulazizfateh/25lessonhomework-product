@@ -1,0 +1,50 @@
+.site-footer {
+    background-color: antiquewhite;
+
+    .footer-wrapper {
+        .footer-logo-social {
+            .footer-logo {
+                .footer-logo-text {
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .footer-social-list {
+                .footer-social-item {
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        .footer-list-wrapper {
+            .footer-list {
+                .footer-item-title {
+                    list-style: none;
+                }
+
+                .footer-item {
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        .footer-form-wrapper {
+            .form-tite {}
+
+            .input-name {}
+
+            .footer-signup-btn {}
+        }
+
+    }
+}
