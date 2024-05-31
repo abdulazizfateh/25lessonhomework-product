@@ -744,6 +744,7 @@
   padding: 0 0 24px 0;
 }
 .site-footer .footer-wrapper {
+  padding-bottom: 15px;
   display: flex;
   gap: 81px;
 }
