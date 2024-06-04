@@ -10,7 +10,7 @@
   margin: 0 auto;
 }
 
-.site-header .navbar {
+.site-header {
   background-color: rgb(31, 46, 53);
 }
 .site-header .navbar .navbar-wrapper {
